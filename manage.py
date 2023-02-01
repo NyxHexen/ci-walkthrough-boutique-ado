@@ -2,6 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+if os.path.exists("env.py"):
+    import env
 
 
 def main():
