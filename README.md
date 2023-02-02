@@ -1,2 +1,2 @@
 # ci-walkthrough-boutique-ado
-Walkthrough Project | Django Module of CI
+Walkthrough Project|Django Module of CI

@@ -1,0 +1,1 @@
+default_app_confirm = 'checkout.apps.CheckoutConfig'
