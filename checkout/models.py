@@ -66,7 +66,7 @@ class OrderLineItem(models.Model):
 
     def save(self, *args, **kwards):
         """
-        Override the original save method to set the order number if it hasn't been set already.
+        Override the original save method to update the order total.
         """
         self.lineitem_total = self.product.price * self.quantity
         super().save(*args, **kwards)
